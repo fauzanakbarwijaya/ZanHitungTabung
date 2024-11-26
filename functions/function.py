@@ -1,3 +1,5 @@
+import math
+
 def hitungVolumeTabung(r,t):
-    volume = 3.14 * r**2 * t
+    volume = math.pi * r**2 * t
     return volume
