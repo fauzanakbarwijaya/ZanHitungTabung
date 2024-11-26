@@ -11,7 +11,7 @@ import streamlit as st
 from functions import function  
 
 # JUDUL APLIKASI
-st.title(f"Kalkulator Volume {st.success('Tabung')}")
+st.title("Kalkulator Volume Tabung")
 
 # INPUT DATA
 jari_jari = st.number_input("Masukkan Jari-jari Tabung:", min_value=0.0, format="%.2f")
